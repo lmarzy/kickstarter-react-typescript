@@ -1,0 +1,9 @@
+.bar {
+  background: orange;
+  color: white;
+
+  &_baz {
+    background: white;
+    color: orange;
+  }
+}

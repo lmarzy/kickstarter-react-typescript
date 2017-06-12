@@ -1,9 +1,15 @@
+import './styles/main.scss';
+
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/Hello/Hello";
+import { Foo } from "./components/Foo";
+import { Bar } from "./components/Bar";
 
 ReactDOM.render(
-    <Hello />,
+    <div>
+        <Foo />
+        <Bar />
+    </div>,
     document.getElementById("example")
 );
