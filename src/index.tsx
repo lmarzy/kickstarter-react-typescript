@@ -1,15 +1,9 @@
-import './styles/main.scss';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-
-import { Foo } from "./components/Foo";
-import { Bar } from "./components/Bar";
+import { ContactChoices } from 'components';
 
 ReactDOM.render(
-    <div>
-        <Foo />
-        <Bar />
-    </div>,
-    document.getElementById("example")
+    <ContactChoices />,
+    document.getElementById('app')
 );
